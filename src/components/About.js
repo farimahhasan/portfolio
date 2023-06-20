@@ -25,14 +25,14 @@ const About = () => {
                         <div>
                             <ul className="p-0">
                                 <li className="d-flex align-items-center"><img src={chevron} alt="icon chevron"/> <strong>Birthday: 15 June 2000</strong></li>
-                                <li className="d-flex align-items-center"><img src={chevron} alt="icon chevron"/> <strong>Website: www.farimahhasan.ir</strong></li>
+                                <li className="d-flex align-items-center"><img src={chevron} alt="icon chevron"/> <strong>https://farimahhasan.netlify.app</strong></li>
                                 <li className="d-flex align-items-center"><img src={chevron} alt="icon chevron"/> <strong>Phone: <a href='tel:+989022213791'>+98 9022213791</a></strong></li>
                                 <li className="d-flex align-items-center"><img src={chevron} alt="icon chevron"/> <strong>City: Tehran , Iran</strong></li>
                             </ul>
                         </div>
                         <div>
                             <ul className="p-0">
-                                <li className="d-flex align-items-center"><img src={chevron} alt="icon chevron"/> <strong>Age: 22</strong></li>
+                                <li className="d-flex align-items-center"><img src={chevron} alt="icon chevron"/> <strong>Age: 23</strong></li>
                                 <li className="d-flex align-items-center"><img src={chevron} alt="icon chevron"/> <strong>Degree: middle-level</strong></li>
                                 <li className="d-flex align-items-center"><img src={chevron} alt="icon chevron"/> <strong>Email:  <a href='mailto:farimah.hsni@gmail.com'>farimah.hsni@gmail.com</a></strong></li>
                                 <li className="d-flex align-items-center"><img src={chevron} alt="icon chevron"/> <strong>Freelance: Available</strong></li>
@@ -44,33 +44,48 @@ const About = () => {
                    </div>
                    <div className='progressContent'>
                      <span>HTML</span>
-                     <span>100%</span>
+                     <span>90%</span>
                    </div>
                    <div className='progress html'>
 
                    </div>
                    <div className='progressContent'>
                      <span>CSS</span>
-                     <span>100%</span>
+                     <span>90%</span>
                    </div>
                    <div className='progress css'>
 
                    </div>
                    <div className='progressContent'>
+                     <span>BOOTSTRAP</span>
+                     <span>90%</span>
+                   </div>
+                   <div className='progress bootstrap'>
+
+                   </div>
+                   <div className='progressContent'>
                      <span>JAVASCRIPT</span>
-                     <span>80%</span>
+                     <span>70%</span>
                    </div>
                    <div className='progress javascript'>
 
                    </div>
 
                    <div className='progressContent'>
-                     <span>BOOTSTRAP</span>
-                     <span>100%</span>
+                     <span>SASS</span>
+                     <span>70%</span>
                    </div>
-                   <div className='progress bootstrap'>
+                   <div className='progress sass'>
 
                    </div>
+                   <div className='progressContent'>
+                     <span>GIT</span>
+                     <span>60%</span>
+                   </div>
+                   <div className='progress git'>
+
+                   </div>
+                   
                    <div className='progressContent'>
                      <span>REACT</span>
                      <span>60%</span>

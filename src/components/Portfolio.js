@@ -1,20 +1,52 @@
 import React from 'react';
-import portfolio1 from '../assets/image/1smaller.jpg'
-import portfolio2 from '../assets/image/2smaller.jpg'
+
 
 const Portfolio = () => {
     return (
         <section id='portfolio' className='portfolio'>
-         <div className="containerAll">
-            <div className="section-title">
-                <h2>Portfolio</h2>
-                <p>My Works</p>
+            <div className="containerAll">
+                <div className="section-title">
+                    <h2>Portfolio</h2>
+                    <p>My Works</p>
+                </div>
+                <div id='containerPortfolio'>
+               
+                <div>
+                        <h3>Project 1 : My website you are currently on :) </h3>
+                        <br />
+                        <a href='https://github.com/farimahhasan/portfolio'>Codes on github</a>
+                        <br /><br />
+                        <p>(HTML5 , CSS3 , REACT JS)</p>
+                    </div>
+                    <div>
+                        <h3>Project 2 : Melobit (Music)</h3>
+                        <br />
+                        <a href='https://github.com/farimahhasan/melobit'>Codes on github</a>
+                        <br /><br />
+                        <a href='https://melobit.netlify.app/'>Show (vpn)</a>
+                        <br/><br/>
+                        <p>(HTML5 , CSS3 , BOOTSTRAP 5 , REACT JS)</p>
+                    </div>
+                    <div>
+                        <h3>Project 3 : Shopping cart</h3>
+                        <br />
+                        <a href='https://github.com/farimahhasan/shop'>Codes on github</a>
+                        <br /> <br />
+                        <a href='https://shopping-cart-mah.netlify.app/'>Show</a>
+                        <br/><br/>
+                        <p>(HTML5 , CSS3 , BOOTSTRAP 5 , REACT JS)</p>
+                    </div>
+                    <div>
+                        <h3>Project 4 : shopping website</h3>
+                        <br /> <br />
+                        <a href='https://github.com/farimahhasan/shopping-website'>Codes on github</a>
+                        <br/><br/>
+                        <p>(HTML , CSS , BOOTSTRAP 4 , JQUERY)</p>
+                    </div>
+
+
+                </div>
             </div>
-            <div className="contentContainer" id='containerImagePortfolio'>
-             <img src={portfolio1} alt="portfolio" />
-             <img src={portfolio2} alt="portfolio" />
-            </div> 
-          </div>
         </section>
     );
 };

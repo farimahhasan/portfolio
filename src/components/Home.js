@@ -26,7 +26,7 @@ const Home = (props) => {
         <header className={ props.path !== "/" ? "header-top": ""}>
         <div className="container">
               <h1>Farimah Hasan</h1>
-              <h2>I'm a <span>web developer</span> from Iran</h2>
+              <h2>I'm a <span>Front-End developer</span> from Iran</h2>
               <nav id="navbar" className={menu ? 'navbar-mobile' : 'navbar'} >
                   <ul>
                       <li><NavLink className={(navData) => navData.isActive ? "active" : "" } onClick={clickHandler} to="/">Home</NavLink></li>
